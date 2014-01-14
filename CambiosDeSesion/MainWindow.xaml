@@ -1,0 +1,11 @@
+﻿<Window x:Class="CambiosDeSesion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" Unloaded="Window_Unloaded">
+    <DockPanel LastChildFill="True" >
+        <Label Content="Notificaciones" Height="28" Name="label1" DockPanel.Dock="Top" />
+        <ListBox Name="listBoxOne"  
+                 VerticalAlignment="Top" Height="280"/>        
+    </DockPanel> 
+    
+</Window>
